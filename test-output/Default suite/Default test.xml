@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="thinker" name="com.redmine.test.LoginTest" tests="1" failures="0" timestamp="17 Oct 2011 14:38:19 GMT" time="3.528" errors="0">
+  <testcase name="testLogin" time="2.313" classname="com.redmine.test.LoginTest"/>
+</testsuite>

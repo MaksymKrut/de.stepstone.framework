@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+<taskdef resource="testngtasks" classpath="testng.jar"/>
+<target name="test">
+<testng>
+<classpath>
+	<pathelement location="d:\\tools\\java\\selenium\\selenium-server-standalone-2.8.0.jar"/>
+      <pathelement location="d:\\_projects\\current\\business\\at.info\\trainings\\selenium\\framework\\ConfetQARedmine\\bin\\"/>
+</classpath>
+	<xmlfileset dir="d:\\_projects\\current\\business\\at.info\\trainings\\selenium\\framework\\ConfetQARedmine\\" includes="testng.xml"/>
+</testng>
+</target>
+</project>
